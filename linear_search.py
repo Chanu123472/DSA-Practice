@@ -1,0 +1,11 @@
+# Linear Search
+
+numbers = [10, 20, 30, 40, 50]
+target = 30
+
+for i in range(len(numbers)):
+    if numbers[i] == target:
+        print("Element found at index:", i)
+        break
+else:
+    print("Element not found")
